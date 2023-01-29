@@ -2,8 +2,8 @@ import fetch from 'node-fetch'
 
 //Plugin By Xynoz!!
 let handler = async (m, { conn, usedPrefix }) => {
-	let url = 'https://telegra.ph/file/ba72d2764080b10645d58.jpg'
-	conn.sendButton(m.chat, '〔 Dᴏɴᴛ ғᴏʀɢᴇᴛ Dᴏɴᴀᴛɪᴏɴ 〕                    \n╭─「_• *Dana/Gopay* •_」\n│ • *Dana* [083863727733]\n│ • *Gopay* [082214729677]\n╰────\n\n_◛˖ ```Ingin Donasi? Chat nomor owner```_', wm, await(await fetch(url)).buffer(), [['Owner',`/owner`]],m)
+	let url = 'https://link.dana.id/qr/7bghx66m'
+	conn.sendButton(m.chat, 'DANA https://link.dana.id/qr/7bghx66m ', wm, await(await fetch(url)).buffer(), [['Owner',`/owner`]],m)
 }
 handler.command = /^(donasi|dns)$/i
 handler.tags = ['info']
