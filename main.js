@@ -123,8 +123,8 @@ function clearTmp() {
 }
 
 const hehe = async (jid, options) => {
-  let wm = 'Amelia-MD';
-  let gambar = 'https://telegra.ph/file/2d06f0936842064f6b3bb.png';
+  let wm = 'CLARINE';
+  let gambar = 'https://telegra.ph/file/6951a2766ed6cdcf125ae.jpg';
   try {
     gambar = await conn.profilePictureUrl(jid, 'image');
   } catch (e) {
@@ -193,8 +193,8 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = '✧━━━━━━[ *WELCOME* ]━━━━━━✧\n\n┏––––––━━━━━━━━•\n│⫹⫺ @subject\n┣━━━━━━━━┅┅┅\n│( 👋 Hallo @user)\n├[ *INTRO* ]—\n│ *Nama:* \n│ *Umur:* \n│ *Gender:*\n┗––––––━━┅┅┅\n\n––––––┅┅ *DESCRIPTION* ┅┅––––––\n@desc'
-  conn.bye = '✧━━━━━━[ *GOOD BYE* ]━━━━━━✧\nSayonara *@user* 👋( ╹▽╹ )'
+  conn.welcome = '*WELCOME*\n @user'
+  conn.bye = '*GOOD BYE*\n @user'
   conn.spromote = '@user sekarang admin!'
   conn.sdemote = '@user sekarang bukan admin!'
   conn.sDesc = 'Deskripsi telah diubah ke \n@desc'
