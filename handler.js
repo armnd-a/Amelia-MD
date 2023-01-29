@@ -494,7 +494,7 @@ export async function handler(chatUpdate) {
                 if (!('welcome' in chat))
                     chat.welcome = true
                 if (!('detect' in chat))
-                    chat.detect = false
+                    chat.detect = true
                 if (!('sWelcome' in chat))
                     chat.sWelcome = ''
                 if (!('sBye' in chat))
@@ -532,7 +532,7 @@ export async function handler(chatUpdate) {
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
-                    delete: true,
+                    delete: false,
                     antiLink: true,
                     antiSticker: false,
                     viewonce: false,
@@ -572,7 +572,7 @@ export async function handler(chatUpdate) {
         if (opts['pconly'] && m.chat.endsWith('g.us'))
             return
         if (opts['gconly'] && !m.chat.endsWith('g.us') && !m.fromMe)
-            return conn.reply(m.chat, 'Mau Pake Bot\nAtau Masuk in Bot Ke Grub Kalian\n┌〔 Harga Sewa 〕\n│\n├ ⎇ *7 ʜᴀʀɪ 4k / ɢʀᴏᴜᴘ*\n├ ⎇ *30 ʜᴀʀɪ 15ᴋ / ɢʀᴏᴜᴘ*\n├ ⎇ *40 ʜᴀʀɪ 18ᴋ / ɢʀᴏᴜᴘ*\n├ ⎇ *60 ʜᴀʀɪ 20ᴋ / ɢʀᴏᴜᴘ*\n│\n└────ᴀᴍᴇʟɪᴀʙᴏᴛ-ᴍᴅ ₪\n\n┌〔 ꜰɪᴛᴜʀ 599+ 〕\n│\n├ ᴡᴇʟᴄᴏᴍᴇ\n├ ᴋɪᴄᴋ\n├ ᴀɴᴛɪʟɪɴᴋ\n├ ꜱᴛɪᴋᴇʀ\n├ ꜱᴏᴜɴᴅ\n├ ᴀɴɪᴍᴇ\n├ ᴅʟʟ\n│-\n└────ᴀᴍᴇʟɪᴀʙᴏᴛ-ᴍᴅ ₪\nMinat? Chat Owner Ajh👇\nwa.me//6283863727733\n\nVIA PEMBAYARAN\nQriss:https://telegra.ph/file/925cfd3f4dadb789833b2.jpg\nDana: 082214729677\nGopay:082214729677\n\n*KIRIM BUKTI TF KE OWNER*',m)
+            return conn.reply(m.chat, 'Mau Pake Bot\nAtau Add? Silah chat owner *wa.me/6287823406145*',m)
         if (opts['swonly'] && m.chat !== 'status@broadcast')
             return
         if (typeof m.text !== 'string')
@@ -751,7 +751,7 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.sendButton(m.chat, `[❗] *Limit Anda Habis, Beberapa Command Tidak Bisa Di Akses*`, author, null, [['Buy Limit', '/buy limit'], ['Menu', '/menu']] , m)
+                    this.sendButton(m.chat, `[❗] *Limit Anda Habis, Beberapa Command Tidak Bisa Di Akses*`, author, null, [['Buy Limit', '/buy limit'], ['M E N U', '/menu']] , m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
@@ -811,7 +811,7 @@ export async function handler(chatUpdate) {
                         }
                     }
                     if (m.limit)
-                        m.reply(+m.limit + ' ʟɪᴍɪᴛ ᴛᴇʀᴘᴀᴋᴀɪ ✔️')
+                        m.reply(+m.limit + 'Limit Terpakai')
                 }
                 break
             }
@@ -1031,13 +1031,13 @@ let msg = {
   
   
     let msgg = {
-    	unreg: 'ʜᴀʟʟᴏ ᴋᴀᴋ 👋\nᴀɴᴅᴀ ʜᴀʀᴜs ᴍᴇɴᴅᴀғᴛᴀʀ ᴋᴇ ᴅᴀᴛᴀʙᴀsᴇ ʙᴏᴛ ᴅᴜʟᴜ sᴇʙᴇʟᴜᴍ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ғɪᴛᴜʀ ɪɴɪ\n\n➞ ᴋʟɪᴄᴋ ᴛᴏᴍʙᴏʟ ᴅɪʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀғᴛᴀʀ ᴋᴇ ᴅᴀᴛᴀʙᴀsᴇ ʙᴏᴛ'
+    	unreg: 'TAP! BUTTON DIBAWAH'
 }[type]
-if (msgg) return conn.sendButtonDocAccess(m.chat, ucapan() + tag + '\n' + msgg, 'Silahkan Verifikasi', '❮ ᴠᴇʀɪғʏ ❯', '.verify', m, adReply)
+if (msgg) return conn.sendButtonDocAccess(m.chat, ucapan() + tag + '\n' + msgg, 'Silahkan Verifikasi', 'TAP!', '.verify', m, adReply)
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  let res = "Sudah Dini Hari Kok Belum Tidur Kak? 🥱"
+  let res = "MALAM CUY"
   if (time >= 4) {
     res = "Pagi Lord 🌄"
   }
