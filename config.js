@@ -62,7 +62,7 @@ global.limitawal = {
 
     premium: "Infinity",
 
-    free: 20
+    free: 50
 
 }
 
@@ -110,7 +110,7 @@ global.psaweria = 'https://link.dana.id/qr/7bghx66m'
 //bebas cuyyy yg atas mahh 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ TAMPILAN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.ListHargaSewa = 'CHAT *wa.me/6287823406145'
+global.ListHargaSewa = 'CHAT *wa.me/6287823406145*'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ TAMPILAN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.LyAtas1 = ''
 global.LyAtas2 = ''
