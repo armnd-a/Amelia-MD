@@ -52,11 +52,11 @@ global.available = true //status online (online)
 // Other
 global.mods = []
 global.prems = []
-global.nomorbot = '6283863727740'
-global.nameown = 'PutraModz'
-global.nomorown = '6283863727733'
-global.nomorown1 = '6282214729677'
-global.nomorown2 = '6282214729677'
+global.nomorbot = '6281363299892'
+global.nameown = 'armand'
+global.nomorown = '6287823406145'
+global.nomorown1 = '6287823406145'
+global.nomorown2 = '6287823406145'
 global.nomorwa = '0'
 global.limitawal = {
 
@@ -69,85 +69,85 @@ global.limitawal = {
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'PutraModz' //ganti aja cuyyy
-global.namebot = '​Amelia-Md' //nama bot luh
-global.wm = '© Amelia-Md' //ganti aja
-global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg' //bebas
-global.wm = 'Amelia-Md ' //wm nyaa kocak
+global.author = 'CLARINE' //ganti aja cuyyy
+global.namebot = '​CLARINE' //nama bot luh
+global.wm = 'CLARINE' //ganti aja
+global.media = 'https://telegra.ph/file/6951a2766ed6cdcf125ae.jpg' //bebas
+global.wm = 'CLARINE ' //wm nyaa kocak
 global.watermark = wm //bebas
-global.wm2 = 'PutraModz' //ganti ajaa 
-global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`//ga usah dehhh 
-global.bottime = `T I M E : ${wktuwib}` //ini juga ga usah 
-global.titlebot = `Amelia-Md | PutraModz` //gantu aja
-global.stickpack = 'Amelia-Modz' //ganti 
-global.stickauth = `© Amelia-Md` //gantii 
+global.wm2 = 'CLARINE' //ganti ajaa 
+global.botdate = `Date: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`//ga usah dehhh 
+global.bottime = `Time: ${wktuwib}` //ini juga ga usah 
+global.titlebot = `CLARINE  | AXT` //gantu aja
+global.stickpack = 'CLARINE' //ganti 
+global.stickauth = `AXT` //gantii 
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= 'Amelia Putri septiany' //ganti 
-global.nameown2 = 'PutraModz' //ganti 
+global.nameown1= 'CLARINE' //ganti 
+global.nameown2 = 'ARMAND' //ganti 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.Linkgc = 'Tunggu Sebentar Kak...'
-global.lynk = 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff'//ganti jadi link gc luh
+global.Linkgc = 'Tunggu'
+global.lynk = 'https://chat.whatsapp.com/CmJkktfVp0H2Gl4v11VOLW'//ganti jadi link gc luh
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.sig = 'https://instagram.com/l4c1f2r' //ganti jadi ig mu
-global.sgh = 'https://github.com/Lucife-Putra' //github
-global.sgc = 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff' //group whatsapp
-global.sdc = '-' //discord klo ga punya ga usah biarin aja
-global.snh = 'https://youtube.com/@Putra_Modz_' //yt klo punya 
+global.sig = 'https://instagram.com/armnd.at' //ganti jadi ig mu
+global.sgh = 'https://github.com/armndd' //github
+global.sgc = 'https://chat.whatsapp.com/CmJkktfVp0H2Gl4v11VOLW' //group whatsapp
+global.sdc = 'https://chat.whatsapp.com/CmJkktfVp0H2Gl4v11VOLW' //discord klo ga punya ga usah biarin aja
+global.snh = 'https://chat.whatsapp.com/CmJkktfVp0H2Gl4v11VOLW' //yt klo punya 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.pdana = 'Chat Owner !!'
-global.povo = '-'
-global.pgopay = 'Chat owner !!'
-global.plinkaja = '-' //link aja
-global.ppulsa = 'Chat owner !!'
-global.ppulsa2 = 'Chat owner !!'
-global.psaweria = 'https://telegra.ph/file/98338a583efeb3d34a70b.jpg'
+global.pdana = 'https://link.dana.id/qr/7bghx66m'
+global.povo = 'https://link.dana.id/qr/7bghx66m'
+global.pgopay = 'https://link.dana.id/qr/7bghx66m'
+global.plinkaja = 'https://link.dana.id/qr/7bghx66m' //link aja
+global.ppulsa = 'https://link.dana.id/qr/7bghx66m'
+global.ppulsa2 = 'https://link.dana.id/qr/7bghx66m'
+global.psaweria = 'https://link.dana.id/qr/7bghx66m'
 
 //bebas cuyyy yg atas mahh 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ TAMPILAN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.ListHargaSewa = '├ 7 Hari IDR 5.000\n├ 20 Hari IDR 8.000\n├ 30 Hari IDR 10.000\n├ PERMANEN IDR 15.000'
+global.ListHargaSewa = 'CHAT *wa.me/6287823406145'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ TAMPILAN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.LyAtas1 = '☰ ━━━ ❨'
-global.LyAtas2 = '❩ ━━┄┈ •⟅'
-global.Ly = '┃'
-global.lybwh = '┗━━┈┈ ⳻⳻'
-global.sym = '◈▻'
-global.sym2 = '➭'
-global.dmenut = 'ଓ═┅═━–〈' //top
-global.dmenub = '┊↬' //body
-global.dmenub2 = '┊' //body for info cmd on Default menu
-global.dmenuf = '┗––––––––––✦' //footer
-global.dashmenu = '┅═┅═❏ *DASHBOARD* ❏═┅═┅'
-global.cmenut = '❏––––––『' //top
-global.cmenuh = '』––––––' //header
-global.cmenub = '┊✦ ' //body
-global.cmenuf = '┗━═┅═━––––––๑\n' //footer
-global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     '
-global.pmenus = '✦'
-global.mm1 = '⫹⫺ ╳╶╼╶╶╶╶┈ ⎝'
-global.mm2 = '⎞ ┈╴╴╴╴╾╴╳ ⫹⫺'
-global.htki = '––––––『' // Hiasan Titile (KIRI)
-global.htka = '』––––––' // Hiasan Title  (KANAN)
-global.lopr = 'Ⓟ' //LOGO PREMIUM ON MENU.JS
-global.lolm = 'Ⓛ' //LOGO LIMIT/FREE ON MENU.JS
-global.htjava = '⫹⫺'    //hiasan Doang :v
+global.LyAtas1 = ''
+global.LyAtas2 = ''
+global.Ly = ''
+global.lybwh = ''
+global.sym = ''
+global.sym2 = ''
+global.dmenut = '' //top
+global.dmenub = '' //body
+global.dmenub2 = '' //body for info cmd on Default menu
+global.dmenuf = '' //footer
+global.dashmenu = ' *DASHBOARD*'
+global.cmenut = '' //top
+global.cmenuh = '' //header
+global.cmenub = '' //body
+global.cmenuf = '' //footer
+global.cmenua = ''
+global.pmenus = ''
+global.mm1 = ''
+global.mm2 = ''
+global.htki = '' // Hiasan Titile (KIRI)
+global.htka = '' // Hiasan Title  (KANAN)
+global.lopr = '' //LOGO PREMIUM ON MENU.JS
+global.lolm = '' //LOGO LIMIT/FREE ON MENU.JS
+global.htjava = ''    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RESPOND ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.stiker_wait = '▰▰▰▰▰▰▱▱ 98% 𝚠𝚊𝚒𝚝!!'
-global.wait = '▰▰▰▰▰▰▱▱ 98% 𝚠𝚊𝚒𝚝!!'
+global.stiker_wait = ' 𝚠𝚊𝚒𝚝!!'
+global.wait = '𝚠𝚊𝚒𝚝!!'
 global.eror = 'Mohon Maaf Server Kami Sedang Error!'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RESPOND GEME ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.benar = '𝙶𝚘𝚘𝚍 𝙹𝚘𝚋𝚋! ◕◡◕'
-global.salah = '𝙽𝚘𝚝 𝙱𝚊𝚍! ◕◠◕'
-global.dikit = "𝙳𝚒𝚔𝚒𝚝 𝙻𝚊𝚐𝚒,𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝!!"
+global.benar = 'Benar'
+global.salah = 'Salah'
+global.dikit = "Sedikit lagi"
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RPG GAME ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
@@ -534,16 +534,16 @@ global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://te
 
 
 global.dtu = '?????????'
-global.urlnya = "https://www.instagram.com/l4c1f2r"
+global.urlnya = "https://chat.whatsapp.com/CmJkktfVp0H2Gl4v11VOLW"
 global.dtc = '???? ?????'
-global.phn = '0822 1472-9677'
+global.phn = '0878 2340 6145'
 
 
 //?? 肓??????帕 ? JNGN DI UBAH ? 帕??????肓 ??
 
 global.fsizedoc = '99999999999999'
 global.fpagedoc = '999'
-global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
+global.thumbdoc = 'https://telegra.ph/file/6951a2766ed6cdcf125ae.jpg'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
